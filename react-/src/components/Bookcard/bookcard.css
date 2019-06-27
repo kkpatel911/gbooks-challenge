@@ -1,0 +1,54 @@
+.card {
+    position: relative;
+    opacity: 0.5;
+    color: rgb(233, 77, 77);
+    transition: 0.5s all;
+    height: 100%;
+  }
+  
+  .card:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -webkit-transition: 0.2s transform;
+    transition: 0.5s all;
+  }
+  
+  .card_image {
+    width: 100%;
+    max-height: auto;
+  }
+  
+  .card_title {
+    text-align: left;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 1.1rem;
+    margin: 10px 5px;
+    font-weight: bold;
+  }
+  .card_type {
+    margin: 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(233, 77, 77);
+  }
+  
+  .card_rating {
+    position: absolute;
+    top: 0;
+    background-color: rgba(22, 21, 21, 0.828);
+    left: 0;
+    font-size: 20px;
+    padding: 5px 7px;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .fa-star {
+    color: white;
+    margin-right: 5px;
+  }
+  
