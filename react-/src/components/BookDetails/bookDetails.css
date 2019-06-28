@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text&display=swap");
+
+.container {
+  display: grid;
+  grid-template-columns: 0fr 1fr;
+  border: 1px rgb(238, 238, 238) solid;
+  box-shadow: 10px 10px 8px rgb(104, 102, 102);
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: rgba(246, 246, 246, 0.383);
+}
+
+.container_image img {
+  height: 50vh;
+  max-width: 35vh;
+}
+
+.container_content {
+  margin-left: 20px;
+  font-family: "Crimson Text", serif;
+  font-size: 1rem;
+}
+.detail {
+  margin: 10px 0px;
+  color: rgb(24, 23, 23);
+  font-size: 1.4rem;
+}
+.detail_title {
+  font-weight: bold;
+}
+.detail_description {
+  font-size: 1.05rem;
+}
+
+.detail_button {
+  margin-top: 20px;
+}
+.detail_button a {
+  text-decoration: none;
+  padding: 8px;
+  background: rgb(16, 186, 253);
+  width: 100%;
+  color: rgb(0, 0, 0);
+}
+
+.header {
+  width: 100%;
+  position: relative;
+  background: rgb(209, 209, 209);
+}
+
+.header_top {
+  position: relative;
+  z-index: 2;
+  height: 90px;
+}
+
+.header_top img {
+  left: 50%;
+  width: 270px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: 1fr;
+    margin: 0px;
+    border: none;
+    box-shadow: none;
+  }
+  .container_content {
+    margin-left: 0px;
+  }
+  .detail_title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .detail_subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .detail_published,
+  .detail_authors,
+  .des {
+    font-size: 1.5rem;
+  }
+}
