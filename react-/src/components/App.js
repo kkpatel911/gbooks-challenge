@@ -1,12 +1,17 @@
-import React from "react";
-import Searchbar from "./SearchBar/searchBar";
+import React, { Component } from 'react'
+import Header from "./Header/header"
+import Details from "./BookDetails/bookDetails"
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import Render from "./homePage"
 
-function App() {
-  return (
-    <div className="App">
-      <Searchbar />
-    </div>
-  );
+export default class App extends Component {
+    render() {
+        return (
+            <Router>
+                <Route path="/" exact component={Header} />
+                <Route path="/" exact component={Render} />
+                <Route path="/book/:id" exact component={Details} />
+            </Router>
+        )
+    }
 }
-
-export default App;

@@ -60,7 +60,7 @@ export default class bookDetails extends Component {
             dangerouslySetInnerHTML={{ __html: item.volumeInfo.description }}
           />
           <h3 class="detail_button">
-            <a href={item.volumeInfo.previewLink}>Get Book</a>
+            <a href={item.volumeInfo.previewLink} target={'_blank'}>Get Book</a>
           </h3>
         </div>
       </div>

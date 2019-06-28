@@ -4,6 +4,7 @@
     color: rgb(233, 77, 77);
     transition: 0.5s all;
     height: 100%;
+    background: white;
   }
   
   .card:hover {

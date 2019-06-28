@@ -28,6 +28,7 @@
 }
 .detail_title {
   font-weight: bold;
+  font-size: 2.02rem;
 }
 .detail_description {
   font-size: 1.05rem;
@@ -80,7 +81,7 @@
   }
   .detail_subtitle {
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: bold;
   }
   .detail_published,
   .detail_authors,
