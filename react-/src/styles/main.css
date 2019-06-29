@@ -68,9 +68,7 @@ form > button {
     padding: 25px;
     /* position: relative; */
   }
-  .card {
-    opacity: 1;
-  }
+
   .error {
     grid-column: 1/4;
   }
